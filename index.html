@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>Biblioteca de PDFs</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+
+            <h1>📚 Manuais e Docs</h1>
+            
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="🔍 Pesquisar PDFs...">
+            </div>
+        </div>
+    </header>
+    <div class="container">
+
+        <div id="loading" class="loading">
+            Carregando PDFs...
+        </div>
+
+        <div id="pdfGrid" class="tech-grid" style="display: none;">
+        </div>
+    </div>
+
+    <script type="module" src="static/js/script.js"></script>
+</body>
+</html>
